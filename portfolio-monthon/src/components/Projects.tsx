@@ -5,6 +5,8 @@ import Project1 from "./CardProjects/Project1"
 import Project2 from "./CardProjects/Project2";
 import Project3 from "./CardProjects/Project3";
 import Project4 from "./CardProjects/Project4";
+import Project5 from "./CardProjects/Project5";
+import Project6 from "./CardProjects/Project6";
 
 type Props = {};
 
@@ -25,6 +27,8 @@ function Projects({}: Props) {
         <Project2/>
         <Project3/>
         <Project4/>
+        <Project5/>
+        <Project6/>
       
         
       </div>

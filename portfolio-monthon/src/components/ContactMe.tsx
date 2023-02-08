@@ -13,8 +13,7 @@ function ContactMe({}: Props) {
   // react hook form >> formData
   const { register, handleSubmit } = useForm<Inputs>();
   const onSubmit: SubmitHandler<Inputs> = (formData) => {
- 
-    window.location.href = `mailto:maxmonthonkachana2@gmail?subject=${formData.subject}&body= Hi My name is 
+    window.location.href = `mailto:maxmonthonkachana2@gmail.com?subject=${formData.subject}&body= Hi My name is 
     ${formData.name}.${formData.message} (${formData.email})`;
   };
 
@@ -26,20 +25,20 @@ function ContactMe({}: Props) {
 
       <div className="flex flex-col space-y-10">
         <h4 className="text-4xl font-semibold text-center">
-          I have got just what you need. {""}
+          I Have Got Just What You Need. {""}
           <span className="decoration-[#F7AB0A]/50 underline">Lets Take.</span>
         </h4>
         <div className=" flex items-center space-x-5 justify-center">
           <PhoneIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-          <p className="text-2xl ">1234567890+</p>
+          <p className="text-2xl ">090-915-3638+</p>
         </div>
         <div className=" flex items-center space-x-5 justify-center">
           <EnvelopeIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-          <p className="text-2xl ">max,gmail.com</p>
+          <p className="text-2xl ">maxmonthonkachana2@gmail.com</p>
         </div>
         <div className=" flex items-center space-x-5 justify-center">
           <MapPinIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-          <p className="text-2xl ">123 Nun+</p>
+          <p className="text-2xl ">Bang Krang, Nonthaburi 11000 , Thailand</p>
         </div>
 
         <form
